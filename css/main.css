@@ -1,0 +1,84 @@
+body {
+    background-image: url('../images/mountains.jpg');
+    font-family: 'Varela Round', sans-serif;
+    font-size: 135%;
+    margin: 0;
+}
+#challenge {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.box-container {
+    box-sizing: border-box;
+    color: #5f6366;
+    margin: 8% auto 0 auto;
+    padding: 2em 0;
+    text-align: center;
+    width: 60%;
+}
+.box-container h1 {
+    margin: 0;
+}
+.box-container p, .btn-wrapper {
+    margin: 1em 0 0;
+}
+.btn-wrapper button {
+    background-color: #86b3d1;
+    border: 2px solid #4d6d9a;
+    color: #fefefe;
+    cursor: pointer;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 100%;
+    padding: 0.4em 0;
+    text-transform: uppercase;
+    width: 150px;
+}
+.list {
+    list-style: none;
+    margin: 1em auto;
+    padding: 0;
+    text-align: left;
+    width: 350px;
+}
+#time-limit {
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: #99ced3;
+}
+.tbl-results {
+    margin: 0 auto;
+}
+.tbl-results img {
+    width: 90px;
+}
+.tbl-results td {
+    padding: 1.2em;
+}
+.icofont-arrow-right {
+    color: #4d6d9a;
+}
+.icofont-check {
+    color: #28a745;
+}
+.icofont-close {
+    color: #dc3545;
+}
+.icofont-exclamation {
+    color: #ffc107;
+}
+.icofont-speed-meter {
+    color: #17a2b8;
+}
+.btn-radio {
+    display: none;
+}
+.btn-radio:checked + label {
+    color: #ffc107;
+    cursor: pointer;
+}
+.icofont-star {
+    cursor: pointer;
+    margin-right: 0.3em;
+}
